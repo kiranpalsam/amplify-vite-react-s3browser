@@ -8,6 +8,7 @@ import { Authenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 
 Amplify.configure(outputs);
+// Auth.configure(outputs);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
     
